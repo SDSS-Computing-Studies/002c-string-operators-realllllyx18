@@ -5,9 +5,9 @@
 
 subject = "This little piggy"
 verb = "went"
-  preposition = "to"
-pronoun = "market'
+preposition = "to"
+pronoun = "market"
 
-result = subject + verb ++ "."
+result = subject + " "+verb + " " +  preposition+" " + pronoun+ "."
 
 print(result)
